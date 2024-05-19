@@ -46,44 +46,44 @@ To get started with **THICK2D**, follow these steps:
 2. **Configure Input Files**:
    - Adjust the generated files according to your project's needs, specifying the calculator (VASP or QE) and potential file directory (This is needed only if you want to optimize the structure before computing the thickness. The flag `optimize` must be set to true). A sample `thick2dtool.in` is as shown below.
      ```
-	########################################
-	###  THICK2D  package input control   ###
-	########################################
-	#choose stress calculator: VASP/QE currently supported
-	code_type = vasp
+########################################
+###  THICK2D  package input control   ###
+########################################
+#choose stress calculator: VASP/QE currently supported
+code_type = vasp
 
-	# Method of AI/ML training
-	use_dnn = False
+# Method of AI/ML training
+use_dnn = False
 
-	#Use pre-trained model
-	use_ml_model = False
+#Use pre-trained model
+use_ml_model = False
 
-	#Running over many structures
-	throughput = False
+#Running over many structures
+throughput = False
 
-	#structure file name with .cif or .vasp
-	structure_file = filename.cif
+#structure file name with .cif or .vasp
+structure_file = filename.cif
 
-	# Optimize structure
-	optimize = False
+# Optimize structure
+optimize = False
 
-	#No of layers
-	nlayers = 1
+#No of layers
+nlayers = 1
 
-	# van der Waals gap
-	vdwgap = 3.5
+# van der Waals gap
+vdwgap = 3.5
 
-	#explicit potential directory
-	potential_dir = /potential
+#explicit potential directory
+potential_dir = /potential
 
-	#Synthethic data for ML
-	num_augmented_samples = 50
+#Synthethic data for ML
+num_augmented_samples = 50
 
-	#Augment thickness data from mat_thickness.txt
-	add_thickness_data = False
+#Augment thickness data from mat_thickness.txt
+add_thickness_data = False
 
-	#job submission command
-	job_submit_command = vasp_cmd/pw.x > log
+#job submission command
+job_submit_command = vasp_cmd/pw.x > log
 
      ```
 
