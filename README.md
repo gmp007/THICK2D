@@ -98,8 +98,6 @@ For many structures or in high-throughput materials screening and design.
 
 For detailed instructions, refer to the examples provided with the toolkit.
 
-
-```markdown
 ## Citing THICK2D
 
 If **THICK2D** contributes to your research, please cite:
@@ -125,7 +123,7 @@ If **THICK2D** contributes to your research, please cite:
   note = {Open source computational toolkit using advanced machine learning to predict thickness of 2D-based materials},
 }
 ```
-```
+
 
 ## Contact Information
 - [cekuma1@gmail.com](mailto:cekuma1@gmail.com)
