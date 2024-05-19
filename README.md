@@ -98,29 +98,34 @@ For many structures or in high-throughput materials screening and design.
 
 For detailed instructions, refer to the examples provided with the toolkit.
 
+
+```markdown
 ## Citing THICK2D
+
 If **THICK2D** contributes to your research, please cite:
-     ```
-   @article{ekuma2024,
-   title={THICK2D: Thickness Hierarchy Inference and Calculation Kit for 2D Materials},
-   journal={Journal Name},
-   volume={xx},
-   pages={xx-xx},
-   year={2024},
-   doi={http://dx.doi.org/xx.xxxx/xxxxxx},
-   author={Your Name and Collaborators},
-   }
-     ```
-     
-     ```
-   @misc{PropertyExtractor,
-     author = {Chinedu Ekuma},
-     title = {THICK2D -- Thickness Hierarchy Inference & Calculation Kit for 2D Materials},
-     year = {2024},
-     howpublished = {\url{https://github.com/gmp007/thick2d}},
-     note = {Open source computational toolkit using advanced machine learning to predict thickness of 2D-based materials},
-   }
-     ```
+
+```latex
+@article{ekuma2024,
+  title={THICK2D: Thickness Hierarchy Inference and Calculation Kit for 2D Materials},
+  journal={Journal Name},
+  volume={xx},
+  pages={xx-xx},
+  year={2024},
+  doi={http://dx.doi.org/xx.xxxx/xxxxxx},
+  author={Your Name and Collaborators},
+}
+```
+
+```latex
+@misc{PropertyExtractor,
+  author = {Chinedu Ekuma},
+  title = {THICK2D -- Thickness Hierarchy Inference & Calculation Kit for 2D Materials},
+  year = {2024},
+  howpublished = {\url{https://github.com/gmp007/thick2d}},
+  note = {Open source computational toolkit using advanced machine learning to predict thickness of 2D-based materials},
+}
+```
+```
 
 ## Contact Information
 - [cekuma1@gmail.com](mailto:cekuma1@gmail.com)
