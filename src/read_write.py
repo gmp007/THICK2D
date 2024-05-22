@@ -47,14 +47,16 @@ def read_options_from_input():
     aux_flag = (len(sys.argv) > 2 and sys.argv[1] == '-0' and sys.argv[2].lower() == '-aux') 
     aux_file_exists = os.path.exists(os.path.join(cwd, "throughput_thickness_calc.py"))
 
-    if aux_flag and not aux_file_exists:
-        write_highthroughput_script()
-        print_fancy_message()
-        sys.exit(0) 
-    else:
-        print("Usage: script.py -0 -aux") 
-        sys.exit(0)      
-        
+    if aux_flag:
+        aux_file_exists = os.path.exists(os.path.join(cwd, "throughput_thickness_calc.py"))
+        if not aux_file_exists:
+            write_highthroughput_script()
+            print_fancy_message()
+        else:
+            print("Auxiliary file already exists.")
+        sys.exit(0)
+  
+                
     """
     Read the stress component options from the 'thick2dtool.in' file.
     ...
