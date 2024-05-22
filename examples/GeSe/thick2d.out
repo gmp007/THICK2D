@@ -1,0 +1,25 @@
+❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+❤                                Results using                         ❤
+❤                             THICK2D Version: 1.0                     ❤
+❤                       VASP code is used as a calculator              ❤
+❤                  to perform Deep Neural Network simulations          ❤
+❤                Calculations started at 09:11:06 on 2024-05-19        ❤
+❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
++-====================================================================-+
++-====================================================================-+
+                         Thickness of Ge2Se2 = 5.641 Å                          
++------------------------------------------------------------------------------+
+|                                 * CITATIONS *                                |
+| ---------------------------------------------------------------------------- |
+|           If you have used THICK2D in your research, PLEASE cite:            |
+|                                                                              |
+|                                  THICK2D:                                    |
+|    A computational toolkit for predicting the thickness of 2D materials,     |
+|                                 C.E. Ekuma,                                  |
+|               Computer Physics Communications xxx, xxx, (2024)               |
+|                                                                              |
+|                                                                              |
+| THICK2D -- Thickness Hierarchy Inference & Calculation Kit for 2D Materials  |
+|            for predicting thickness of 2D materials, C.E. Ekuma,             |
+|                        www.github.com/gmp007/thick2d                         |
++------------------------------------------------------------------------------+

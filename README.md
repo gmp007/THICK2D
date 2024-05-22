@@ -1,4 +1,4 @@
-# THICK2D -- Thickness Hierarchy Inference & Calculation Kit for 2D Materials
+# THICK2D - Thickness Hierarchy Inference & Calculation Kit for 2D Materials
 
 **`THICK2D`** is a Python-based computational toolkit designed to accurately predict the thickness of two-dimensional (2D) materials using only the crystal structure information. Utilizing state-of-the-art algorithms, advanced machine learning architecture, and integrating seamlessly with widely recognized electronic structure codes such as VASP and QE, **THICK2D** offers researchers a robust platform for the precise determination and analysis of thickness of 2D material.
 
@@ -139,3 +139,4 @@ This project is licensed under the GNU GPL version 3 - see the [LICENSE](LICENSE
 
 ## Acknowledgments
 - This work was supported by the U.S. Department of Energy, Office of Science, Basic Energy Sciences under Award DOE-SC0024099.
+
