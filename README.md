@@ -94,6 +94,7 @@ For many structures or in high-throughput materials screening and design.
 
    - If you want to predict thickness for many structures, you can benefit from using the high-throughput option. Set the flag `throughput` to true.
    - Copy the accompanying pre-computed machine learning models into the folder `ml_model` or, if you have performed the machine learning training yourself, this folder is automatically generated in your working folder.
+   - Generate the generate the auxillary python code called `throughput_thickness_calc.py` as `thick2d -0 -aux` or copy it from the accompanying `auxillaryfile` folder.
    - Run the auxiliary Python code as `python throughput_thickness_calc.py <cif_directory> <control_file_directory>`, where `<control_file_directory>` is the location of the `thick2dtool.in` main **THICK2D** control parameter.
 
 For detailed instructions, refer to the examples provided with the toolkit.
