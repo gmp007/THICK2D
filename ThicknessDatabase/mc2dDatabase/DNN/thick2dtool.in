@@ -1,5 +1,5 @@
 ########################################
-###  SMATool package input control   ###
+###  THICK2D package input control   ###
 ########################################
 #choose stress calculator: VASP/QE currently supported
 code_type = vasp
@@ -26,7 +26,7 @@ vdwgap = 3.5
 #explicit potential directory
 potential_dir = /home/chineduekuma/codes/vasp/PBE
 
-#Synthethic data for ML
+#Synthetic data for ML
 num_augmented_samples = 50
 
 #Augment thickness data from mat_thickness.txt

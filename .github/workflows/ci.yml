@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  lightweight-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run static regression tests
+        run: python -m unittest discover -s tests
+
+      - name: Compile changed Python files
+        run: |
+          python -m py_compile \
+            src/thick2d \
+            src/thick2d_read_write.py \
+            src/optimize_struct.py \
+            src/optimize_struct_qe.py \
+            src/predict_thickness_2D.py
