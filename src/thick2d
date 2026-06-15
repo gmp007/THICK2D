@@ -25,20 +25,20 @@ from ase import Atoms
 from collections import Counter
 from datetime import datetime
 import warnings
-from read_write import read_options_from_input,load_structure,append_data 
+from thick2d_read_write import read_options_from_input,load_structure,append_data
 from optimize_struct import optimize_structure_vasp,optimize_structure_qe
 from write_inputs import print_line, print_boxed_message, print_banner
 from predict_thickness_2D import predict_thickness_2D 
 
 try:
-    from importlib.metadata import version  # Python 3.8+
-    version = version("SMATool") 
+    from importlib.metadata import PackageNotFoundError, version as package_version  # Python 3.8+
 except ImportError:
-    from importlib_metadata import version  # Python <3.8
-    version = version("SMATool") 
-except ImportError:
-    import pkg_resources
-    version = pkg_resources.get_distribution("SMATool").version
+    from importlib_metadata import PackageNotFoundError, version as package_version  # Python <3.8
+
+try:
+    version = package_version("thick2d")
+except PackageNotFoundError:
+    version = "1.0"
 
     
     
@@ -228,5 +228,3 @@ print("")
 
 with open("calctime.log", 'w') as f:
     f.write(f"Calculation done in {elapsed_time:.2f} s\n")
-
-
